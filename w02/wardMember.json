@@ -1,0 +1,29 @@
+{
+    "familyName" : "Wiseman",
+    "moveInDate" : "09/26/2024",
+    "familySize" : 4,
+    "bishopricVisit" : true,
+    "familyMembers" : [
+        {
+            "name" : "Michael Wiseman",
+            "gender" : "male",
+            "birthdate" : "1997-09-26"           
+        },
+        {
+            "name" : "Analurah Wiseman",
+            "gender" : "female",
+            "birthdate" : "1998-11-02"           
+        },
+        {
+            "name" : "Lincoln Wiseman",
+            "gender" : "male",
+            "birthdate" : "2024-02-13"           
+        },
+        {
+            "name" : "Theodore Wiseman",
+            "gender" : "male",
+            "birthdate" : "2026-06-29"           
+        }
+    ]
+
+}
