@@ -23,20 +23,24 @@ main {
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    grid-column:1/10
+    grid-column:1/11
 }
 
 header section {
-    display: flex;
-    flex-direction: row;
+    color: black;
 }
 
-nav {display: flex;
+nav {
+    background-color: black;
+    display: flex;
     flex-direction: row;
     text-align: center;
+}
+nav li {
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    padding: 10px;
 }
 
 .tile-titles {
@@ -49,4 +53,5 @@ nav {display: flex;
 button{
     width: 300px;
     height: 50px;
+    
 }
