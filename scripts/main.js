@@ -12,10 +12,10 @@ document.querySelector('#lastModified').textContent = `Last Modified: ${document
 
 // Course Information and Filtering Logic
 const courses = [
-    { subject: 'CSE', number: 110, title: 'Introduction to Programming', credits: 3, completed: true },
-    { subject: 'WDD', number: 130, title: 'Web Fundamentals', credits: 3, completed: true },
-    { subject: 'CSE', number: 111, title: 'Programming with Functions', credits: 3, completed: true },
-    { subject: 'WDD', number: 131, title: 'Web Frontend Development I', credits: 3, completed: true },
+    { subject: 'CSEPC', number: 110, title: 'Introduction to Programming', credits: 3, completed: true },
+    { subject: 'WDD', number: 130, title: 'Web Fundamentals', credits: 2, completed: true },
+    { subject: 'CSE', number: 111, title: 'Programming with Functions', credits: 2, completed: true },
+    { subject: 'WDD', number: 131, title: 'Web Frontend Development I', credits: 2, completed: true },
     { subject: 'CSE', number: 210, title: 'Programming with Classes', credits: 3, completed: false },
     { subject: 'WDD', number: 231, title: 'Web Frontend Development II', credits: 3, completed: false }
 ];
