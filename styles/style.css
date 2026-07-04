@@ -124,6 +124,7 @@ h1 {
     max-width: 300px;
     height: auto;
     padding: 1.5rem;
+    border-radius: 15%;
 }
 
 .certificate-card {
@@ -189,6 +190,7 @@ footer {
     padding: 2rem 1rem;
     margin-top: 2rem;
 }
+
 
 footer p {
     margin: 0.5rem 0;
