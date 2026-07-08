@@ -18,9 +18,62 @@
     <meta property="og:url" content="https://www.mcwiseman97.github.io/WDD231/chamber/">
     <meta property="og:image" content="images/profile.jpg">
     <script src="scripts/chamber.js" defer></script>
+    <script>
+        document.getElementById('hamburger').addEventListener('click', function() {
+            const navMenu = document.getElementById('navMenu');
+            navMenu.classList.toggle('active');
+        });
+        
+        // Set last modified date
+        document.getElementById('lastModified').textContent = document.lastModified;
+    </script>
 </head>
 <body>
-    <h1>Chamber of Commerce: Waxahachie TX</h1>
-    <div id="cards"></div>
+    <header>
+        <div class="header-container">
+            <div class="logo-section">
+                <img src="images/favicon.ico" alt="Chamber Logo" class="logo">
+                <h1>Waxahachie Chamber of Commerce</h1>
+            </div>
+            <button id="hamburger" class="hamburger">☰</button>
+            <button id="darkModeToggle" class="dark-mode-btn">🌙</button>
+            <nav id="navMenu" class="nav-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="directory.html" class="active">Directory</a></li>
+                    <li><a href="#">Join</a></li>
+                    <li><a href="#">Discover</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <h2>Directory</h2>
+        <div class="controls">
+            <button id="gridBtn" class="active">Grid</button>
+            <button id="listBtn">List</button>
+        </div>
+        <div id="cards"></div>
+    </main>
+    
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Waxahachie Chamber of Commerce</h3>
+                <p>604 N Hwy 77<br>Waxahachie, TX 75165</p>
+                <p>info@waxahachiechamber.com<br>(972) 937-2310</p>
+            </div>
+            <div class="footer-section social">
+                <a href="#" class="social-icon">📺</a>
+                <a href="#" class="social-icon">🐦</a>
+                <a href="#" class="social-icon">💼</a>
+            </div>
+            <div class="footer-section">
+                <p><strong>WDD231 Class Project</strong><br>Michael Wiseman</p>
+                <p>© 2026 Waxahachie Chamber of Commerce<br>Last Modified: <span id="lastModified"></span></p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

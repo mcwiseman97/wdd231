@@ -15,7 +15,7 @@
       "address": "800 N Hwy 77, Waxahachie, TX 75165",
       "email": "bakery.047@heb.com",
       "phone": "469-517-2300",
-      "imageurl": "images/heb-logo.webp",
+      "imageurl": "images/heb-logo.jpg",
       "membershiplevel": "Silver"
     },
     {
@@ -24,7 +24,7 @@
       "address": "200 W Marvin Ave, Waxahachie, TX 75165",
       "email": "news@waxahachiedailylight.com",
       "phone": "972-937-3310",
-      "imageurl": "images/dailylight-logo.webp",
+      "imageurl": "images/dailylight-logo.jpg",
       "membershiplevel": "Bronze"
     },
     {
@@ -33,7 +33,7 @@
       "address": "201 S College St, Waxahachie, TX 75165",
       "email": "ecm@elliscountymuseum.org",
       "phone": "972-937-0681",
-      "imageurl": "images/museum-logo.webp",
+      "imageurl": "images/museum-logo.jpg",
       "membershiplevel": "Bronze"
     },
     {
@@ -42,7 +42,7 @@
       "address": "112 S College St, Waxahachie, TX 75165",
       "email": "info@collegestreetcoffee.com",
       "phone": "469-383-2010",
-      "imageurl": "images/coffee-logo.webp",
+      "imageurl": "images/coffee-logo.jpg",
       "membershiplevel": "Gold"
     },
     {
@@ -51,7 +51,7 @@
       "address": "515 W Main St, Waxahachie, TX 75165",
       "email": "reference@simslib.org",
       "phone": "972-923-4014",
-      "imageurl": "images/simslibrary-logo.webp",
+      "imageurl": "images/simslibrary-logo.jpg",
       "membershiplevel": "Gold"
     },
     {
@@ -60,7 +60,7 @@
       "address": "100 N College St, Waxahachie, TX 75165",
       "email": "leasing@therogershotel.com",
       "phone": "972-938-1913",
-      "imageurl": "images/rogershotel-logo.webp",
+      "imageurl": "images/rogershotel-logo.jpg",
       "membershiplevel": "Silver"
     },
     {
@@ -69,7 +69,7 @@
       "address": "1208 Ferris Ave, Waxahachie, TX 75165",
       "email": "director@waxahachiecare.org",
       "phone": "972-923-2273",
-      "imageurl": "images/waxahachiecare-logo.webp",
+      "imageurl": "images/waxahachiecare-logo.jpg",
       "membershiplevel": "Bronze"
     },
     {
@@ -78,7 +78,7 @@
       "address": "301 N Hwy 77, Waxahachie, TX 75165",
       "email": "service@plazaautowax.com",
       "phone": "972-937-8844",
-      "imageurl": "images/plazaauto-logo.webp",
+      "imageurl": "images/plazaauto-logo.jpg",
       "membershiplevel": "Silver"
     }
   ]
