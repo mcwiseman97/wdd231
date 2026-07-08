@@ -1,4 +1,4 @@
-const url = 'https://mcwiseman97.github.io/wdd231/chamber/chamber/scripts/chamber.js';
+const url = 'https://mcwiseman97.github.io/wdd231/chamber/scripts/business.json';
 
 const cards = document.querySelector('#cards');
 
