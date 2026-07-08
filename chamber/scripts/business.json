@@ -1,85 +1,85 @@
 {
-    "businesses" : [
-        {
-            "businessname" : "",
-            "businesstagline" : "",
-            "address" : "",
-            "email" : "",
-            "phone" : "",
-            "imageurl" : "",
-            "membershiplevel" : ""
-        },
-        {
-            "businessname" : "",
-            "businesstagline" : "",
-            "address" : "",
-            "email" : "",
-            "phone" : "",
-            "imageurl" : "",
-            "membershiplevel" : ""
-        },
-        {
-            "businessname" : "",
-            "businesstagline" : "",
-            "address" : "",
-            "email" : "",
-            "phone" : "",
-            "imageurl" : "",
-            "membershiplevel" : ""
-        },
-        {
-            "businessname" : "",
-            "businesstagline" : "",
-            "address" : "",
-            "email" : "",
-            "phone" : "",
-            "imageurl" : "",
-            "membershiplevel" : ""
-        },
-        {
-            "businessname" : "",
-            "businesstagline" : "",
-            "address" : "",
-            "email" : "",
-            "phone" : "",
-            "imageurl" : "",
-            "membershiplevel" : ""
-        },
-        {
-            "businessname" : "",
-            "businesstagline" : "",
-            "address" : "",
-            "email" : "",
-            "phone" : "",
-            "imageurl" : "",
-            "membershiplevel" : ""
-        },
-        {
-            "businessname" : "",
-            "businesstagline" : "",
-            "address" : "",
-            "email" : "",
-            "phone" : "",
-            "imageurl" : "",
-            "membershiplevel" : ""
-        },
-        {
-            "businessname" : "",
-            "businesstagline" : "",
-            "address" : "",
-            "email" : "",
-            "phone" : "",
-            "imageurl" : "",
-            "membershiplevel" : ""
-        },
-        {
-            "businessname" : "",
-            "businesstagline" : "",
-            "address" : "",
-            "email" : "",
-            "phone" : "",
-            "imageurl" : "",
-            "membershiplevel" : ""
-        }
-    ]
+  "businesses": [
+    {
+      "businessname": "Whataburger",
+      "businesstagline": "Just like you like it.",
+      "address": "604 N Hwy 77, Waxahachie, TX 75165",
+      "email": "store0422@whataburger.com",
+      "phone": "214-937-1234",
+      "imageurl": "images/whataburger-logo.webp",
+      "membershiplevel": "Gold"
+    },
+    {
+      "businessname": "HEB Bakery",
+      "businesstagline": "Freshly baked daily for our community.",
+      "address": "800 N Hwy 77, Waxahachie, TX 75165",
+      "email": "bakery.047@heb.com",
+      "phone": "469-517-2300",
+      "imageurl": "images/heb-logo.webp",
+      "membershiplevel": "Silver"
+    },
+    {
+      "businessname": "Waxahachie Daily Light",
+      "businesstagline": "Your voice, your community newspaper.",
+      "address": "200 W Marvin Ave, Waxahachie, TX 75165",
+      "email": "news@waxahachiedailylight.com",
+      "phone": "972-937-3310",
+      "imageurl": "images/dailylight-logo.webp",
+      "membershiplevel": "Bronze"
+    },
+    {
+      "businessname": "Ellis County Museum",
+      "businesstagline": "Preserving local history on the historic square.",
+      "address": "201 S College St, Waxahachie, TX 75165",
+      "email": "ecm@elliscountymuseum.org",
+      "phone": "972-937-0681",
+      "imageurl": "images/museum-logo.webp",
+      "membershiplevel": "Bronze"
+    },
+    {
+      "businessname": "The College Street Coffeehouse",
+      "businesstagline": "Crafting premium espresso and community connections.",
+      "address": "112 S College St, Waxahachie, TX 75165",
+      "email": "info@collegestreetcoffee.com",
+      "phone": "469-383-2010",
+      "imageurl": "images/coffee-logo.webp",
+      "membershiplevel": "Gold"
+    },
+    {
+      "businessname": "Sims Library",
+      "businesstagline": "Empowering minds, transforming lives since 1905.",
+      "address": "515 W Main St, Waxahachie, TX 75165",
+      "email": "reference@simslib.org",
+      "phone": "972-923-4014",
+      "imageurl": "images/simslibrary-logo.webp",
+      "membershiplevel": "Gold"
+    },
+    {
+      "businessname": "Rogers Hotel Office Suites",
+      "businesstagline": "Historic charm meets modern executive workspaces.",
+      "address": "100 N College St, Waxahachie, TX 75165",
+      "email": "leasing@therogershotel.com",
+      "phone": "972-938-1913",
+      "imageurl": "images/rogershotel-logo.webp",
+      "membershiplevel": "Silver"
+    },
+    {
+      "businessname": "Waxahachie Care",
+      "businesstagline": "Providing food and support to neighbors in need.",
+      "address": "1208 Ferris Ave, Waxahachie, TX 75165",
+      "email": "director@waxahachiecare.org",
+      "phone": "972-923-2273",
+      "imageurl": "images/waxahachiecare-logo.webp",
+      "membershiplevel": "Bronze"
+    },
+    {
+      "businessname": "Chamber Plaza Auto",
+      "businesstagline": "Honest mechanical service and routine maintenance.",
+      "address": "301 N Hwy 77, Waxahachie, TX 75165",
+      "email": "service@plazaautowax.com",
+      "phone": "972-937-8844",
+      "imageurl": "images/plazaauto-logo.webp",
+      "membershiplevel": "Silver"
+    }
+  ]
 }
