@@ -54,3 +54,18 @@ async function getBusinessData(url) {
 }
 
 getBusinessData(url);
+
+// Hamburger menu toggle
+const hamburger = document.getElementById('hamburger');
+if (hamburger) {
+  hamburger.addEventListener('click', function() {
+    const navMenu = document.getElementById('navMenu');
+    navMenu.classList.toggle('active');
+  });
+}
+
+// Set last modified date
+const lastModifiedElement = document.getElementById('lastModified');
+if (lastModifiedElement) {
+  lastModifiedElement.textContent = document.lastModified;
+}
