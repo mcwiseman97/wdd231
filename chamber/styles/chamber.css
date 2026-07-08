@@ -1,6 +1,11 @@
 /* Chamber Directory styling */
 :root {
-  box-sizing: border-box;
+    box-sizing: border-box;
+    --bg: #e9e8f8;
+    --card-bg: rgba(153, 158, 213, 0.22);
+    --border: rgba(75, 78, 138, 0.25);
+    --text: #2f2f60;
+    --accent: #4a4b9c;
 }
 
 * {
@@ -10,15 +15,15 @@
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
-  color: #333;
-  background: #f5f5f5;
+  color: var(--text);
+  background: var(--bg);
 }
 
 header {
   text-align: center;
   padding: 1rem;
-  background: #e0e0e0;
-  border-bottom: 1px solid #999;
+  background: var(--card-bg);
+  border-bottom: 1px solid var(--border);
 }
 
 .header-container {
@@ -46,7 +51,7 @@ header {
 header h1 {
   margin: 0;
   font-size: 1.5rem;
-  color: #333;
+  color: var(--text);
   font-weight: 700;
 }
 
@@ -74,7 +79,7 @@ nav ul {
 
 nav a {
   text-decoration: none;
-  color: #333;
+  color: var(--text);
   font-weight: 500;
   border-bottom: 2px solid transparent;
   transition: border-color 0.3s ease;
@@ -82,11 +87,11 @@ nav a {
 }
 
 nav a:hover {
-  border-bottom-color: #333;
+  border-bottom-color: var(--accent);
 }
 
 nav a.active {
-  border-bottom-color: #333;
+  border-bottom-color: var(--accent);
   font-weight: 700;
 }
 
@@ -110,7 +115,7 @@ main {
 
 main h2 {
   font-size: 2rem;
-  color: #333;
+  color: var(--text);
   margin: 1rem 0;
   font-weight: 700;
 }
@@ -125,21 +130,21 @@ main h2 {
 .controls button {
   padding: 0.5rem 1.5rem;
   font-size: 1rem;
-  border: 2px solid #333;
-  background: #f0f0f0;
+  border: 2px solid var(--accent);
+  background: var(--bg);
   cursor: pointer;
   border-radius: 4px;
   transition: all 0.3s ease;
 }
 
 .controls button:hover {
-  background: #e0e0e0;
+  background: var(--card-bg);
 }
 
 .controls button.active {
-  background: #999;
+  background: var(--accent);
   color: white;
-  border-color: #999;
+  border-color: var(--accent);
 }
 
 #cards {
@@ -149,8 +154,8 @@ main h2 {
 }
 
 #cards section {
-  background: #d9d9d9;
-  border: 1px solid #bbb;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
   border-radius: 4px;
   padding: 1.5rem;
   text-align: center;
@@ -160,13 +165,13 @@ main h2 {
   margin: 0 0 0.3rem 0;
   font-size: 1.2rem;
   line-height: 1.1;
-  color: #333;
+  color: var(--text);
 }
 
 .tagline {
   margin: 0 0 1rem 0;
   font-size: 0.85rem;
-  color: #666;
+  color: var(--text);
   font-weight: normal;
 }
 
@@ -175,8 +180,8 @@ main h2 {
   width: 120px;
   height: 120px;
   margin: 1rem auto;
-  border: 2px solid #999;
-  background: #f5f5f5;
+  border: 2px solid var(--border);
+  background: var(--bg);
 }
 
 .details {
@@ -187,20 +192,20 @@ main h2 {
 
 .details p {
   margin: 0.5rem 0;
-  color: #333;
+  color: var(--text);
 }
 
 .details strong {
-  color: #000;
+  color: var(--accent);
 }
 
 footer {
   text-align: center;
   padding: 2rem 1rem;
-  background: #d9d9d9;
-  color: #333;
+  background: var(--card-bg);
+  color: var(--text);
   font-size: 0.95rem;
-  border-top: 1px solid #999;
+  border-top: 1px solid var(--border);
 }
 
 .footer-content {
@@ -241,7 +246,7 @@ footer {
   justify-content: center;
   width: 40px;
   height: 40px;
-  background: #666;
+  background: var(--accent);
   border-radius: 50%;
   text-decoration: none;
   font-size: 1.2rem;
