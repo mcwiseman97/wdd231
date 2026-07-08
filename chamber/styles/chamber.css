@@ -254,7 +254,13 @@ footer {
 }
 
 .social-icon:hover {
-  background: #444;
+  background: var(--text);
+}
+
+.social-icon img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
 }
 
 @media (max-width: 768px) {
