@@ -1,67 +1,92 @@
+name, 
+address, 
+phone, 
+website url, 
+image file name, 
+and membership level.
+
 {
     "businesses" : [
         {
             "businessname" : "",
             "businesstagline" : "",
+            "address" : "",
             "email" : "",
             "phone" : "",
-            "imageurl" : ""
+            "imageurl" : "",
+            "membershiplevel" : ""
         },
         {
             "businessname" : "",
             "businesstagline" : "",
+            "address" : "",
             "email" : "",
             "phone" : "",
-            "imageurl" : ""
+            "imageurl" : "",
+            "membershiplevel" : ""
         },
         {
             "businessname" : "",
             "businesstagline" : "",
+            "address" : "",
             "email" : "",
             "phone" : "",
-            "imageurl" : ""
+            "imageurl" : "",
+            "membershiplevel" : ""
         },
         {
             "businessname" : "",
             "businesstagline" : "",
+            "address" : "",
             "email" : "",
             "phone" : "",
-            "imageurl" : ""
+            "imageurl" : "",
+            "membershiplevel" : ""
         },
         {
             "businessname" : "",
             "businesstagline" : "",
+            "address" : "",
             "email" : "",
             "phone" : "",
-            "imageurl" : ""
+            "imageurl" : "",
+            "membershiplevel" : ""
         },
         {
             "businessname" : "",
             "businesstagline" : "",
+            "address" : "",
             "email" : "",
             "phone" : "",
-            "imageurl" : ""
+            "imageurl" : "",
+            "membershiplevel" : ""
         },
         {
             "businessname" : "",
             "businesstagline" : "",
+            "address" : "",
             "email" : "",
             "phone" : "",
-            "imageurl" : ""
+            "imageurl" : "",
+            "membershiplevel" : ""
         },
         {
             "businessname" : "",
             "businesstagline" : "",
+            "address" : "",
             "email" : "",
             "phone" : "",
-            "imageurl" : ""
+            "imageurl" : "",
+            "membershiplevel" : ""
         },
         {
             "businessname" : "",
             "businesstagline" : "",
+            "address" : "",
             "email" : "",
             "phone" : "",
-            "imageurl" : ""
+            "imageurl" : "",
+            "membershiplevel" : ""
         }
     ]
 }
