@@ -4,8 +4,8 @@
     --bg: #e9e8f8;
     --card-bg: rgba(153, 158, 213, 0.22);
     --border: rgba(75, 78, 138, 0.25);
-    --text: #2f2f60;
-    --accent: #4a4b9c;
+    --text: black;
+    --accent: rgb(67, 67, 218);
 }
 
 * {
@@ -13,7 +13,6 @@
 }
 
 body {
-  margin: 0;
   font-family: "Roboto", sans-serif;
   color: var(--text);
   background: var(--bg);
@@ -49,7 +48,6 @@ header {
 }
 
 header h1 {
-  margin: 0;
   font-size: 1.5rem;
   color: var(--text);
   font-weight: 700;
@@ -71,8 +69,6 @@ nav {
 nav ul {
   display: flex;
   list-style: none;
-  margin: 0;
-  padding: 0;
   gap: 2rem;
   justify-content: center;
 }
@@ -83,7 +79,7 @@ nav a {
   font-weight: 500;
   border-bottom: 2px solid transparent;
   transition: border-color 0.3s ease;
-  padding-bottom: 0.25rem;
+  padding-bottom: 0.5rem;
 }
 
 nav a:hover {
@@ -163,14 +159,14 @@ main h2 {
 
 #cards h2 {
   margin: 0 0 0.3rem 0;
-  font-size: 1.2rem;
+  font-size: 1rem;
   line-height: 1.1;
   color: var(--text);
 }
 
 .tagline {
   margin: 0 0 1rem 0;
-  font-size: 0.85rem;
+  font-size: 1rem;
   color: var(--text);
   font-weight: normal;
 }
@@ -204,7 +200,7 @@ footer {
   padding: 2rem 1rem;
   background: var(--card-bg);
   color: var(--text);
-  font-size: 0.95rem;
+  font-size: 1rem;
   border-top: 1px solid var(--border);
 }
 
@@ -228,8 +224,8 @@ footer {
 }
 
 .footer-section p {
-  margin: 0.3rem 0;
-  font-size: 0.85rem;
+  margin: 0.5rem 0;
+  font-size: 1rem;
   line-height: 1.4;
 }
 
@@ -240,26 +236,9 @@ footer {
   align-items: center;
 }
 
-.social-icon {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 40px;
-  height: 40px;
-  background: var(--accent);
-  border-radius: 50%;
-  text-decoration: none;
-  font-size: 1.2rem;
-  transition: background 0.3s ease;
-}
-
-.social-icon:hover {
-  background: var(--text);
-}
-
 .social-icon img {
-  width: 24px;
-  height: 24px;
+  width: 50px;
+  height: 50px;
   object-fit: contain;
 }
 
@@ -348,7 +327,7 @@ footer {
   }
 
   header h1 {
-    font-size: 0.95rem;
+    font-size: 1rem;
   }
 
   .dark-mode-btn,
