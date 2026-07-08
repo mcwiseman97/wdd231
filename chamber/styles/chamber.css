@@ -1,11 +1,10 @@
-/* Chamber Directory styling */
 :root {
     box-sizing: border-box;
-    --bg: #e9e8f8;
-    --card-bg: rgba(153, 158, 213, 0.22);
-    --border: rgba(75, 78, 138, 0.25);
-    --text: black;
-    --accent: rgb(67, 67, 218);
+    --bg: #f8fafc;
+    --card-bg: #ffffff;
+    --border: #e2e8f0;
+    --text: #0f172a;
+    --accent: #6366f1;
 }
 
 * {
