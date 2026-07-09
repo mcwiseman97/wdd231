@@ -128,10 +128,6 @@ main h2 {
   transition: all 0.3s ease;
 }
 
-.controls button:hover {
-  background: var(--card-bg);
-}
-
 .controls button.active {
   background: var(--accent);
   color: white;
