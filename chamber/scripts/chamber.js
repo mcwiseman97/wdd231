@@ -1,4 +1,4 @@
-const url = 'https://mcwiseman97.github.io/wdd231/chamber/scripts/business.json';
+const url = 'https://mcwiseman97.github.io/wdd231/chamber/scripts/members.json';
 const cards = document.querySelector('#cards');
 
 const displayBusinesses = (businesses) => {
