@@ -1,5 +1,20 @@
 const url = 'https://mcwiseman97.github.io/wdd231/chamber/scripts/members.json';
 const cards = document.querySelector('#cards');
+const gridBtn = document.getElementById('gridBtn');
+const listBtn = document.getElementById('listBtn');
+
+const setView = (view) => {
+  cards.classList.toggle('list-view', view === 'list');
+  cards.classList.toggle('grid-view', view === 'grid');
+
+  if (gridBtn) {
+    gridBtn.classList.toggle('active', view === 'grid');
+  }
+
+  if (listBtn) {
+    listBtn.classList.toggle('active', view === 'list');
+  }
+};
 
 const displayBusinesses = (businesses) => {
   businesses.forEach((business) => {
@@ -51,6 +66,16 @@ async function getBusinessData(url) {
   } catch (error) {
     console.error('Failed to fetch business data:', error);
   }
+}
+
+setView('grid');
+
+if (gridBtn) {
+  gridBtn.addEventListener('click', () => setView('grid'));
+}
+
+if (listBtn) {
+  listBtn.addEventListener('click', () => setView('list'));
 }
 
 getBusinessData(url);
