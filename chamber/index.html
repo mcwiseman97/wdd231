@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="icon" href="images/favicon.ico">
     <title>WDD 231 | Chambers</title>
-    <meta name="description" content="Chamber of Commerce Waxahachie Texas website for local business networking directory. Displaying local members.">
+    <meta name="description" content="Chamber of Commerce Waxahachie Texas website for local business networking.">
     <meta name="author" content="Michael Wiseman">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/chamber.css">
+    <link rel="stylesheet" href="styles/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
@@ -30,8 +31,8 @@
             <button id="hamburger" class="hamburger">☰</button>
             <nav id="navMenu" class="nav-menu">
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="directory.html" class="active">Directory</a></li>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="directory.html">Directory</a></li>
                     <li><a href="#">Join</a></li>
                     <li><a href="#">Discover</a></li>
                 </ul>
@@ -39,12 +40,39 @@
         </div>
     </header>
     <main>
-        <h2>Directory</h2>
-        <div class="controls">
-            <button id="gridBtn" class="active">Grid</button>
-            <button id="listBtn">List</button>
+
+        <h2>Main</h2>
+        <!-- Hero Image goes here -->
+        <div class="hero-container">
+            <img class="hero-image" src="images/waxahachie-hero.jpg" alt="Waxahachie courthouse.">
         </div>
-        <div id="cards"></div>
+        <!-- Call to action to join the chamber of commerce (external link / button for webpage that not yet built)-->
+        <section id="indexAlign">
+            <div id="actionTile" class="indexTile">
+                <h3>Call to Action</h3>
+                <p><strong>Accelerate your business growth and connect with influential local leaders by joining the Waxahachie Chamber of Commerce today.</strong></p>
+                <ul>
+                    <li><strong>Expand Your Network:</strong> Gain direct access to exclusive networking events, business expos, and community leaders to build lasting professional relationships.</li>
+                    <li><strong>Increase Visibility:</strong> Elevate your brand reputation with a trusted listing in the business directory and features in community spotlights.</li>
+                    <li><strong>Advocate for Success:</strong> Benefit from a collective voice that champions local business interests and drives economic growth in the region.</li>
+                </ul>
+                <button type="button" id="joinButton">Join Now!</button>
+            </div>
+            <!-- Current event section -->
+            <div id="currentTile" class="indexTile">
+                <h3>Current Events</h3>
+            </div>
+
+            <!-- Weather Section (Implement the OPenWeatherMap API)-->
+            <div id="weatherTile" class="indexTile">
+                <h3>Current Weather</h3>
+            </div>
+
+            <!-- Company spotlight section -->
+            <div id="spotlightTile" class="indexTile">
+                <h3>Company Spotlight</h3>
+            </div>
+        </section>
     </main>
     
     <footer>
