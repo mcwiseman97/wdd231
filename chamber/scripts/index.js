@@ -1,5 +1,5 @@
 // Add your free OpenWeatherMap API key: https://openweathermap.org/api
-const WEATHER_API_KEY = 'YOUR_API_KEY_HERE';
+const WEATHER_API_KEY = '64edd624f7a9329aef1efcf4f8774105';
 const LAT = 32.3865;
 const LON = -96.8483;
 const MEMBERS_URL = 'scripts/members.json';
@@ -10,7 +10,7 @@ const spotlightsContainer = document.querySelector('#spotlights');
 
 async function getWeather() {
   if (!WEATHER_API_KEY || WEATHER_API_KEY === 'YOUR_API_KEY_HERE') {
-    weatherCurrent.innerHTML = '<p>Add your OpenWeatherMap API key in <code>scripts/index.js</code> to load weather data.</p>';
+    weatherCurrent.innerHTML = '<p>Add the OpenWeatherMap API key in <code>scripts/index.js</code> to load weather data.</p>';
     return;
   }
 
