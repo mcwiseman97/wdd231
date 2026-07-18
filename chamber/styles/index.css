@@ -1,4 +1,3 @@
-/* Hero with CTA overlay */
 .hero-container {
   position: relative;
   width: 100%;
@@ -198,7 +197,6 @@
   word-break: break-word;
 }
 
-/* Desktop layout: events full width, weather + spotlights side by side */
 @media (min-width: 768px) {
   .hero-container {
     min-height: 360px;
