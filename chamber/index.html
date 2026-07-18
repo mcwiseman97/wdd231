@@ -19,6 +19,7 @@
     <meta property="og:url" content="https://www.mcwiseman97.github.io/WDD231/chamber/">
     <meta property="og:image" content="images/profile.jpg">
     <script src="scripts/chamber.js" defer></script>
+    <script src="scripts/index.js" defer></script>
 </head>
 <body>
     <header>
@@ -40,41 +41,55 @@
         </div>
     </header>
     <main>
+        <h2>Home</h2>
 
-        <h2>Main</h2>
-        <!-- Hero Image goes here -->
-        <div class="hero-container">
-            <img class="hero-image" src="images/waxahachie-hero.jpg" alt="Waxahachie courthouse.">
-        </div>
-        <!-- Call to action to join the chamber of commerce (external link / button for webpage that not yet built)-->
-        <section id="indexAlign">
-            <div id="actionTile" class="indexTile">
-                <h3>Call to Action</h3>
-                <p><strong>Accelerate your business growth and connect with influential local leaders by joining the Waxahachie Chamber of Commerce today.</strong></p>
-                <ul>
-                    <li><strong>Expand Your Network:</strong> Gain direct access to exclusive networking events, business expos, and community leaders to build lasting professional relationships.</li>
-                    <li><strong>Increase Visibility:</strong> Elevate your brand reputation with a trusted listing in the business directory and features in community spotlights.</li>
-                    <li><strong>Advocate for Success:</strong> Benefit from a collective voice that champions local business interests and drives economic growth in the region.</li>
-                </ul>
-                <button type="button" id="joinButton">Join Now!</button>
-            </div>
-            <!-- Current event section -->
-            <div id="currentTile" class="indexTile">
-                <h3>Current Events</h3>
-            </div>
-
-            <!-- Weather Section (Implement the OPenWeatherMap API)-->
-            <div id="weatherTile" class="indexTile">
-                <h3>Current Weather</h3>
-            </div>
-
-            <!-- Company spotlight section -->
-            <div id="spotlightTile" class="indexTile">
-                <h3>Company Spotlight</h3>
+        <section class="hero-container">
+            <img class="hero-image" src="images/waxahachie-hero.jpg" alt="Historic Waxahachie courthouse on the town square." width="1200" height="600">
+            <div class="hero-cta">
+                <h3>Grow With Waxahachie</h3>
+                <p>Connect with local leaders and accelerate your business.</p>
+                <a href="#" id="joinButton" class="cta-link">Join the Chamber</a>
             </div>
         </section>
+
+        <section id="indexAlign">
+            <article id="currentTile" class="indexTile">
+                <h3>Current Events</h3>
+                <ul class="event-list">
+                    <li>
+                        <h4>Monthly Networking Breakfast</h4>
+                        <p>Thursday, July 23 · 7:30 AM · Chamber Office</p>
+                        <p>Meet fellow members and hear updates on local economic development.</p>
+                    </li>
+                    <li>
+                        <h4>Historic Square Business Walk</h4>
+                        <p>Saturday, August 2 · 10:00 AM · Downtown Square</p>
+                        <p>Tour downtown storefronts and support local retailers.</p>
+                    </li>
+                    <li>
+                        <h4>Chamber Ribbon Cutting</h4>
+                        <p>Friday, August 15 · 11:00 AM · College Street</p>
+                        <p>Celebrate a new member grand opening with community leaders.</p>
+                    </li>
+                </ul>
+            </article>
+
+            <article id="weatherTile" class="indexTile">
+                <h3>Current Weather</h3>
+                <div id="weather-current" class="weather-current">
+                    <p>Loading weather...</p>
+                </div>
+                <h4>3-Day Forecast</h4>
+                <div id="weather-forecast" class="weather-forecast"></div>
+            </article>
+
+            <article id="spotlightTile" class="indexTile">
+                <h3>Company Spotlight</h3>
+                <div id="spotlights" class="spotlights"></div>
+            </article>
+        </section>
     </main>
-    
+
     <footer>
         <div class="footer-content">
             <div class="footer-section">

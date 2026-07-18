@@ -4,6 +4,10 @@ const gridBtn = document.getElementById('gridBtn');
 const listBtn = document.getElementById('listBtn');
 
 const setView = (view) => {
+  if (!cards) {
+    return;
+  }
+
   cards.classList.toggle('list-view', view === 'list');
   cards.classList.toggle('grid-view', view === 'grid');
 
@@ -17,6 +21,10 @@ const setView = (view) => {
 };
 
 const displayBusinesses = (businesses) => {
+  if (!cards) {
+    return;
+  }
+
   businesses.forEach((business) => {
     let card = document.createElement('section');
     let busname = document.createElement('h2');
@@ -25,7 +33,7 @@ const displayBusinesses = (businesses) => {
     let details = document.createElement('div');
     let email = document.createElement('p');
     let phone = document.createElement('p');
-    let url = document.createElement('p');
+    let address = document.createElement('p');
 
     busname.textContent = `${business.businessname}`;
     tagline.textContent = business.businesstagline;
@@ -40,11 +48,11 @@ const displayBusinesses = (businesses) => {
     details.className = 'details';
     email.innerHTML = `<strong>EMAIL:</strong> ${business.email}`;
     phone.innerHTML = `<strong>PHONE:</strong> ${business.phone}`;
-    url.innerHTML = `<strong>ADDRESS:</strong> ${business.address}`;
+    address.innerHTML = `<strong>ADDRESS:</strong> ${business.address}`;
 
     details.appendChild(email);
     details.appendChild(phone);
-    details.appendChild(url);
+    details.appendChild(address);
 
     card.appendChild(busname);
     card.appendChild(tagline);
@@ -56,6 +64,10 @@ const displayBusinesses = (businesses) => {
 };
 
 async function getBusinessData(url) {
+  if (!cards) {
+    return;
+  }
+
   try {
     const response = await fetch(url);
     if (!response.ok) {
@@ -68,17 +80,19 @@ async function getBusinessData(url) {
   }
 }
 
-setView('grid');
+if (cards) {
+  setView('grid');
 
-if (gridBtn) {
-  gridBtn.addEventListener('click', () => setView('grid'));
+  if (gridBtn) {
+    gridBtn.addEventListener('click', () => setView('grid'));
+  }
+
+  if (listBtn) {
+    listBtn.addEventListener('click', () => setView('list'));
+  }
+
+  getBusinessData(url);
 }
-
-if (listBtn) {
-  listBtn.addEventListener('click', () => setView('list'));
-}
-
-getBusinessData(url);
 
 // Hamburger menu toggle
 const hamburger = document.getElementById('hamburger');
