@@ -1,0 +1,16 @@
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+}
+
+.membershipTiles {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+}
