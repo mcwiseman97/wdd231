@@ -4,22 +4,22 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="icon" href="images/favicon.ico">
-    <title>Thank You | Waxahachie Chamber of Commerce</title>
-    <meta name="description" content="Thank you for applying to join the Waxahachie Chamber of Commerce.">
+    <title>Discover | Waxahachie Chamber of Commerce</title>
+    <meta name="description" content="Discover Waxahachie, Texas—demographics, historic landmarks, parks, and local attractions for visitors and prospective chamber members.">
     <meta name="author" content="Michael Wiseman">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/chamber.css">
-    <link rel="stylesheet" href="styles/join.css">
+    <link rel="stylesheet" href="styles/discover.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
-    <meta property="og:title" content="Thank You | Waxahachie Chamber of Commerce">
-    <meta property="og:description" content="Thank you for applying to join the Waxahachie Chamber of Commerce.">
-    <meta property="og:url" content="https://mcwiseman97.github.io/wdd231/chamber/thankyou.html">
-    <meta property="og:image" content="images/profile.jpg">
+    <meta property="og:title" content="Discover | Waxahachie Chamber of Commerce">
+    <meta property="og:description" content="Explore landmarks, parks, and attractions in Waxahachie, Texas.">
+    <meta property="og:url" content="https://mcwiseman97.github.io/wdd231/chamber/discover.html">
+    <meta property="og:image" content="images/waxahachie-hero.jpg">
     <script src="scripts/chamber.js" defer></script>
-    <script src="scripts/join.js" defer></script>
+    <script type="module" src="scripts/discover.js"></script>
 </head>
 <body>
     <header>
@@ -34,46 +34,35 @@
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="directory.html">Directory</a></li>
-                    <li><a href="join.html" class="active">Join</a></li>
-                    <li><a href="discover.html">Discover</a></li>
+                    <li><a href="join.html">Join</a></li>
+                    <li><a href="discover.html" class="active">Discover</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <main class="thankyou-main">
-        <h2>Thank You!</h2>
-        <p class="join-intro">Your membership application has been received. Here is a summary of your submission:</p>
+    <main>
+        <h2>Discover Waxahachie</h2>
+        <p class="discover-intro">
+            Explore the landmarks, parks, and community spaces that make Ellis County a great place to live, visit, and do business.
+        </p>
 
-        <section class="thankyou-summary" aria-label="Application summary">
-            <dl id="applicationSummary">
-                <div>
-                    <dt>First Name</dt>
-                    <dd id="show-fname"></dd>
-                </div>
-                <div>
-                    <dt>Last Name</dt>
-                    <dd id="show-lname"></dd>
-                </div>
-                <div>
-                    <dt>Email</dt>
-                    <dd id="show-email"></dd>
-                </div>
-                <div>
-                    <dt>Mobile Phone</dt>
-                    <dd id="show-phone"></dd>
-                </div>
-                <div>
-                    <dt>Business / Organization Name</dt>
-                    <dd id="show-organization"></dd>
-                </div>
-                <div>
-                    <dt>Application Submitted</dt>
-                    <dd id="show-timestamp"></dd>
-                </div>
-            </dl>
-            <p><a class="cta-link" href="join.html">Return to Join Page</a></p>
+        <aside id="visit-message" class="visit-banner" hidden>
+            <p class="visit-text"></p>
+            <button id="visit-close" class="visit-close" type="button" aria-label="Dismiss visit message">&times;</button>
+        </aside>
+
+        <section class="area-facts" aria-labelledby="facts-heading">
+            <h2 id="facts-heading">About the Area</h2>
+            <ul>
+                <li>Population of approximately 45,000 in the city of Waxahachie, with strong growth across Ellis County.</li>
+                <li>Located about 30 miles south of Dallas along I-35E an accessible hub for North Texas commerce.</li>
+                <li>Known for historic architecture, the Gingerbread Trail, and a vibrant downtown square.</li>
+                <li>Home to parks, Lake Waxahachie recreation, and year-round festivals that draw visitors and support local business.</li>
+            </ul>
         </section>
+
+        <section id="discover-gallery" class="discover-gallery" aria-label="Places of interest"></section>
     </main>
 
     <footer>

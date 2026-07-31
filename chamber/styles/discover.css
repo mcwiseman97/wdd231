@@ -1,0 +1,183 @@
+.discover-intro {
+  max-width: 40rem;
+  margin: 0 0 1.5rem;
+  line-height: 1.4;
+}
+
+.visit-banner,
+.area-facts,
+.discover-card {
+  background-color: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.75rem;
+  padding: 1.25rem;
+}
+
+.visit-banner,
+.area-facts {
+  margin: 0 0 1.5rem;
+}
+
+.visit-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.visit-banner[hidden] {
+  display: none;
+}
+
+.visit-text {
+  margin: 0;
+  line-height: 1.4;
+}
+
+.visit-close {
+  flex-shrink: 0;
+  border: none;
+  background: transparent;
+  font-size: 1.35rem;
+  line-height: 1;
+  cursor: pointer;
+  padding: 0.15rem 0.35rem;
+}
+
+.visit-close:hover,
+.visit-close:focus-visible {
+  color: #26287d;
+}
+
+.area-facts h2,
+.discover-card h2 {
+  margin: 0 0 1rem;
+  color: #0f172a;
+  font-size: 1.35rem;
+}
+
+.discover-card h2 {
+  margin: 0;
+}
+
+.area-facts ul {
+  margin: 0;
+  padding-left: 1.25rem;
+  line-height: 1.4;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.discover-gallery {
+  display: grid;
+  gap: 1.25rem;
+  margin-bottom: 2rem;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "card1"
+    "card2"
+    "card3"
+    "card4"
+    "card5"
+    "card6"
+    "card7"
+    "card8";
+}
+
+.discover-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  min-width: 0;
+}
+
+.discover-card-1 { grid-area: card1; }
+.discover-card-2 { grid-area: card2; }
+.discover-card-3 { grid-area: card3; }
+.discover-card-4 { grid-area: card4; }
+.discover-card-5 { grid-area: card5; }
+.discover-card-6 { grid-area: card6; }
+.discover-card-7 { grid-area: card7; }
+.discover-card-8 { grid-area: card8; }
+
+.discover-card figure {
+  margin: 0;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  border: 1px solid #e2e8f0;
+  background: #f8fafc;
+}
+
+.discover-card img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+}
+
+.discover-card address {
+  font-style: normal;
+  font-size: 0.9rem;
+  line-height: 1.35;
+}
+
+.discover-card p {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.4;
+  flex: 1;
+}
+
+.discover-card button {
+  align-self: flex-start;
+  margin-top: 0.25rem;
+  padding: 0.5rem 1.5rem;
+  font: inherit;
+  border: 2px solid #26287d;
+  background: #f8fafc;
+  color: #0f172a;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.discover-card button:hover,
+.discover-card button:focus-visible {
+  background: #26287d;
+  color: #fff;
+}
+
+@media (min-width: 641px) {
+  .discover-gallery {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    grid-template-areas:
+      "card1 card2"
+      "card3 card3"
+      "card4 card5"
+      "card6 card7"
+      "card8 card8";
+  }
+
+  .discover-card img {
+    transition: transform 0.35s ease, filter 0.35s ease;
+  }
+
+  .discover-card:hover img,
+  .discover-card:focus-within img {
+    transform: scale(1.05);
+    filter: brightness(1.06);
+  }
+}
+
+@media (min-width: 1025px) {
+  .discover-gallery {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+      "card1 card1 card2 card3"
+      "card4 card5 card5 card3"
+      "card4 card6 card7 card7"
+      "card8 card8 card8 card8";
+  }
+}

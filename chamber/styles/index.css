@@ -54,7 +54,6 @@
   outline-offset: 2px;
 }
 
-/* Home content layout */
 #indexAlign {
   display: flex;
   flex-direction: column;
@@ -103,7 +102,6 @@
   line-height: 1.4;
 }
 
-/* Weather */
 .weather-current {
   display: flex;
   align-items: center;
@@ -151,7 +149,6 @@
   font-size: 0.9rem;
 }
 
-/* Spotlights */
 .spotlights {
   display: grid;
   grid-template-columns: 1fr;
