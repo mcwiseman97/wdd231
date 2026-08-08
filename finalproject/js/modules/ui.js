@@ -26,7 +26,7 @@ export function renderFavorites(favorites, container, movies) {
   if (!container) return;
 
   if (favorites.length === 0) {
-    container.innerHTML = '<li class="status">No favorites yet.</li>';
+    container.innerHTML = '<li class="status">You have not chosen any movies to watch later.</li>';
     return;
   }
 
