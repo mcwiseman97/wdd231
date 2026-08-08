@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover a curated set of movies on MovieQueue with genre filtering and favorites.">
+  <meta name="author" content="MovieQueue">
+  <meta property="og:title" content="MovieQueue | Discover">
+  <meta property="og:description" content="Browse movies, filter by genre, save favorites, and view details.">
+  <meta property="og:type" content="website">
+  <title>MovieQueue | Discover</title>
+  <link rel="icon" href="images/favicon.svg" sizes="any">
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="styles/project.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">MovieQueue</a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">☰</button>
+    <nav id="site-nav" aria-label="Primary navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a class="active" href="discover.html">Discover</a></li>
+        <li><a href="siteplan.html">Site Plan</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Discover new picks</h1>
+      <p>Filter by genre, save favorites, and open a movie to see more details.</p>
+    </section>
+
+    <section class="panel">
+      <div class="controls">
+        <label for="genre-filter">Filter by genre</label>
+        <select id="genre-filter" name="genre-filter"></select>
+      </div>
+      <div id="movie-grid" class="movie-grid"></div>
+    </section>
+
+    <section class="panel">
+      <h2>Favorites</h2>
+      <ul id="favorite-list"></ul>
+    </section>
+  </main>
+
+  <div id="movie-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-card">
+      <button id="modal-close" class="modal-close" type="button" aria-label="Close modal">×</button>
+      <h2 id="modal-title" class="modal-title">Movie details</h2>
+      <div class="modal-body"></div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2026 MovieQueue | <a href="siteplan.html">Site Plan</a></p>
+  </footer>
+
+  <script type="module" src="js/main.js"></script>
+  <script src="js/nav.js"></script>
+</body>
+</html>

@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "title": "Neon Skyline",
+    "genre": "Sci-Fi",
+    "year": 2022,
+    "rating": "8.6/10",
+    "runtime": "118 min",
+    "description": "A courier discovers a hidden signal that could change a city forever.",
+    "image": "https://images.unsplash.com/photo-1517602302552-471fe67acf66?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": 2,
+    "title": "Midnight Compass",
+    "genre": "Drama",
+    "year": 2021,
+    "rating": "7.9/10",
+    "runtime": "104 min",
+    "description": "A young cartographer follows old memories across a coastal town.",
+    "image": "https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": 3,
+    "title": "The Last Laugh",
+    "genre": "Comedy",
+    "year": 2020,
+    "rating": "8.1/10",
+    "runtime": "96 min",
+    "description": "A struggling stand-up comic learns to laugh at chaos.",
+    "image": "https://images.unsplash.com/photo-1516280440614-37939bbacd81?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": 4,
+    "title": "Shadow at Dawn",
+    "genre": "Horror",
+    "year": 2019,
+    "rating": "7.4/10",
+    "runtime": "101 min",
+    "description": "A remote inn becomes a trap when the sun refuses to rise.",
+    "image": "https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": 5,
+    "title": "Summer Signal",
+    "genre": "Romance",
+    "year": 2023,
+    "rating": "8.2/10",
+    "runtime": "109 min",
+    "description": "Two radio hosts fall in love while chasing a vanished station.",
+    "image": "https://images.unsplash.com/photo-1517602302552-471fe67acf66?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": 6,
+    "title": "Fireline",
+    "genre": "Action",
+    "year": 2022,
+    "rating": "8.7/10",
+    "runtime": "121 min",
+    "description": "A former firefighter races back into danger to save a neighborhood.",
+    "image": "https://images.unsplash.com/photo-1513106580091-1d82408b8cd6?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": 7,
+    "title": "Quiet Harbor",
+    "genre": "Drama",
+    "year": 2018,
+    "rating": "7.8/10",
+    "runtime": "102 min",
+    "description": "A retired sailor returns home to repair old family wounds.",
+    "image": "https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": 8,
+    "title": "Brightside",
+    "genre": "Comedy",
+    "year": 2024,
+    "rating": "8.3/10",
+    "runtime": "95 min",
+    "description": "An overprepared planner accidentally creates the perfect weekend.",
+    "image": "https://images.unsplash.com/photo-1516280440614-37939bbacd81?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": 9,
+    "title": "Static Heart",
+    "genre": "Sci-Fi",
+    "year": 2021,
+    "rating": "7.6/10",
+    "runtime": "113 min",
+    "description": "A lonely engineer builds a machine that mirrors the voices of the missing.",
+    "image": "https://images.unsplash.com/photo-1517602302552-471fe67acf66?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": 10,
+    "title": "Northbound",
+    "genre": "Action",
+    "year": 2020,
+    "rating": "8.0/10",
+    "runtime": "116 min",
+    "description": "A road trip turns into a race against a collapsing bridge.",
+    "image": "https://images.unsplash.com/photo-1513106580091-1d82408b8cd6?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": 11,
+    "title": "Paper Lanterns",
+    "genre": "Romance",
+    "year": 2017,
+    "rating": "7.7/10",
+    "runtime": "98 min",
+    "description": "A festival designer falls for the city she plans to leave.",
+    "image": "https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": 12,
+    "title": "The Hollow Room",
+    "genre": "Horror",
+    "year": 2023,
+    "rating": "7.5/10",
+    "runtime": "100 min",
+    "description": "A family moves into a house that changes with every new arrival.",
+    "image": "https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": 13,
+    "title": "City of Glass",
+    "genre": "Drama",
+    "year": 2024,
+    "rating": "8.4/10",
+    "runtime": "107 min",
+    "description": "A former architect rebuilds a shattered life through conversation.",
+    "image": "https://images.unsplash.com/photo-1517602302552-471fe67acf66?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": 14,
+    "title": "Moonlight Run",
+    "genre": "Action",
+    "year": 2023,
+    "rating": "8.5/10",
+    "runtime": "114 min",
+    "description": "A runner uncovers a conspiracy while training for the city marathon.",
+    "image": "https://images.unsplash.com/photo-1513106580091-1d82408b8cd6?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": 15,
+    "title": "After the Rain",
+    "genre": "Romance",
+    "year": 2022,
+    "rating": "8.1/10",
+    "runtime": "103 min",
+    "description": "A weather reporter and a chef swap stories over late-night meals.",
+    "image": "https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=900&q=80"
+  }
+]

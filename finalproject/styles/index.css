@@ -1,0 +1,42 @@
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+ul li {
+    list-style-type: none;
+    padding: 0 10px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    gap: 2rem;
+    align-items: start;
+}
+
+main > h2 {
+    grid-column: 1 / -1;
+}
+
+#left-aside {
+    grid-column: 1;
+}
+
+#category-list {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+#movie-list {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    grid-column: 2;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+}
