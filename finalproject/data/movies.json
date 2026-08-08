@@ -144,13 +144,13 @@
   },
   {
     "id": 14,
-    "title": "Saltburn",
+    "title": "The Menu",
     "genre": "Thriller",
     "year": 2023,
-    "rating": "7.0/10",
-    "runtime": "131 min",
-    "description": "An Oxford student becomes dangerously obsessed with a wealthy family friend.",
-    "image": "https://upload.wikimedia.org/wikipedia/en/5/52/Saltburn_Film_Poster.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
+    "rating": "9.0/10",
+    "runtime": "107 min",
+    "description": "A young couple travels to a remote island to dine at an exclusive, high-end restaurant where a celebrity chef has prepared an exquisite, multi-course meal featuring a series of increasingly terrifying and deadly surprises for his wealthy guests.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/d/db/The_Menu_%282022_film%29.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
     "streaming": ["Prime Video", "Apple TV+"]
   },
   {
