@@ -39,12 +39,17 @@ export function renderFavorites(favorites, container, movies) {
 export function openModal(modal, movie) {
   if (!modal) return;
 
+  const streamingText = Array.isArray(movie.streaming) && movie.streaming.length > 0
+    ? movie.streaming.join(', ')
+    : 'Not listed';
+
   modal.querySelector('.modal-title').textContent = movie.title;
   modal.querySelector('.modal-body').innerHTML = `
     <p>${movie.description}</p>
     <p><strong>Genre:</strong> ${movie.genre}</p>
     <p><strong>Year:</strong> ${movie.year}</p>
     <p><strong>Rating:</strong> ${movie.rating}</p>
+    <p><strong>Streaming:</strong> ${streamingText}</p>
   `;
   modal.classList.add('is-open');
 }
